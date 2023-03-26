@@ -1,0 +1,25 @@
+﻿@page
+@model DatabaseEPICORDb.Pages.ViewPages.CreateDepartmentModel
+<form  method="post">
+    <input hidden asp-for="@Model.Department.Id" />
+    <div class=" form-control-color">
+        <label asp-for="@Model.Department.Name"></label>
+        <input asp-for="@Model.Department.Name" />
+        <span asp-validation-for="@Model.Department.Name" class=" alert-danger"></span>
+    </div>
+    <div class=" form-control-color">
+        <label asp-for="@Model.Department.Location"></label>
+        <input asp-for="@Model.Department.Location"/>
+        <span asp-validation-for="@Model.Department.Location" class=" alert-danger"></span>
+    </div>
+    <button type="submit" value=" Create" class=" btn btn-primary">Save</button>
+</form>
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

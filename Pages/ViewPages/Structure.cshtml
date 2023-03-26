@@ -1,0 +1,31 @@
+﻿@page
+@model DatabaseEPICORDb.Pages.ViewPages.StructureModel
+<input hidden asp-for="@Model.Employee.Id">
+<table class="table table-striped">
+   <thead>
+       <tr>
+           <th>
+               Managers Id
+           </th>
+           <th>
+               Managers Name
+           </th>
+       </tr>
+   </thead>
+   <tbody>
+        @{
+            foreach (var obj in Model.Managers)
+            {
+              <tr>
+                <td>
+                    @obj.Id
+                </td>
+                <td>
+                    @obj.Name
+                </td>
+              </tr>
+            }
+        }
+       
+   </tbody>
+</table>

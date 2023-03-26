@@ -1,0 +1,130 @@
+﻿@page
+@model DatabaseEPICORDb.Pages.ViewPages.DetailsModel
+
+<div class="container p-3">
+    <input hidden asp-for="@Model.Employees.Id"/>
+    <div class=" row pt-4">
+        <div class="col-6">
+            <h2 class=" text-primary">Employee Data</h2>
+        </div>
+    </div>
+    <br /><br />
+    <table class="table table-striped">
+        <thead>
+            <tc>
+                <th>
+                    Employee ID
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Employee Name
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Designation
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Eamil Id
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Manager Id
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Manager Name
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Department_ID
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Department Name
+                </th>
+            </tc>
+            <tc>
+                <th>
+                    Department Location
+                </th>
+            </tc>
+        </thead>
+        <tbody>
+            @{
+                var obj = Model.Employees;
+            }
+            <tc>
+                <td>
+                    @obj.Id
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @obj.Name
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @obj.Designation
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @obj.Email
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @{
+                        if (obj.ManagerId != null)
+                        {
+                            @obj.ManagerId
+                        }
+                        else
+                        {
+                            @:NULL
+                        }
+                    }
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @{
+                        if (obj.Manager != null)
+                            @obj.Manager.Name
+                        else
+                        {
+                            @:NULL
+                        }
+                    }
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @obj.DepartmentId
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @obj.Department.Name
+                </td>
+            </tc>
+            <tc>
+                <td>
+                    @obj.Department.Location
+                </td>
+            </tc>
+        </tbody>
+    </table>
+</div>
+<div>
+    <a asp-page="Index" class=" btn btn-primary">Back to Home</a>
+</div>

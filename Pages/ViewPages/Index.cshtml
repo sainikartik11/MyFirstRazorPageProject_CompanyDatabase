@@ -1,0 +1,97 @@
+﻿@page
+@model DatabaseEPICORDb.Pages.ViewPages.IndexModel
+
+@{
+    var obj1 = Model.Employees;
+}
+
+<div class="container p-3">
+    <div class=" row pt-4">
+        <div class="col-6">
+            <h2 class=" text-black-50">Employee Data</h2>
+        </div>
+    </div>
+    <br /><br />
+    <form method="post">
+        <input asp-for="@Model.SearchString" />
+        <button type="submit">Search</button>
+        <select asp-for="@Model.SortOrder">
+            <option value="Employee_Name">Employee_Name</option>
+            <option value="Department_ID">Department_ID</option>
+            <option value="Manager_ID">Manager_ID</option>
+        </select>
+        <button type="submit">Sort</button>
+    </form>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Employee ID
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Designation
+                </th>
+                <th>
+                    Manager_Id
+                </th>
+                <th>
+                    Department_ID
+                </th>
+                <th>
+                    Email_ID
+                </th>
+                <th>
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model.Employees)
+            {
+                <tr>
+                    <td>
+                        @obj.Id
+                    </td>
+                    <td>
+                        @obj.Name
+                    </td>
+                    <td>
+                        @obj.Designation
+                    </td>
+                    <td>
+                        @obj.ManagerId
+                    </td>
+                    <td>
+                        @obj.DepartmentId
+                    </td>
+                    <td>
+                        @obj.Email
+                    </td>
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@obj.Id" class=" btn btn-primary">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-page="Details" asp-route-id="@obj.Id" class=" btn btn-primary">Details</a>
+                    </td>
+                    <td>
+                        <a asp-page="Delete" asp-route-id="@obj.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                    <td>
+                        <a asp-page="Structure" asp-route-id="@obj.Id" class="btn btn-dar">Structure</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <a asp-page="Create" class="btn btn-primary">Add New Data</a>
+    <a asp-page="CreateDepartment" class=" btn btn-primary">Add new department</a>
+    <a asp-page="DeleteDepartment" class=" btn btn-primary">Delete department</a>
+</div>

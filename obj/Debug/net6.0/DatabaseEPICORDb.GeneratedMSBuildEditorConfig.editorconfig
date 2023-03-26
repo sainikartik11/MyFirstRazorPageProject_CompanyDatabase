@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DatabaseEPICORDb
+build_property.RootNamespace = DatabaseEPICORDb
+build_property.ProjectDir = C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/CreateDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXENyZWF0ZURlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/DeleteDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXERlbGV0ZURlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/DeleteDepartmentDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXERlbGV0ZURlcGFydG1lbnREZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/ViewPages/Structure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BhZ2VzXFN0cnVjdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kartik.saini/source/repos/DatabaseEPICOR/DatabaseEPICORDb/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8tw8aps35p
