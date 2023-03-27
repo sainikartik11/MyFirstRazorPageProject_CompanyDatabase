@@ -1155,6 +1155,41 @@
             "rid": "win"
           }
         }
+      },
+      "Epicor.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Epicor.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Epicor.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Epicor.DataAccess.dll": {}
+        }
+      },
+      "Epicor.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Epicor.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Epicor.Models.dll": {}
+        }
+      },
+      "Epicor.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Epicor.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Epicor.Utility.dll": {}
+        }
       }
     }
   },
@@ -3500,10 +3535,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Epicor.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Epicor.DataAccess/Epicor.DataAccess.csproj",
+      "msbuildProject": "../Epicor.DataAccess/Epicor.DataAccess.csproj"
+    },
+    "Epicor.Models/1.0.0": {
+      "type": "project",
+      "path": "../Epicor.Models/Epicor.Models.csproj",
+      "msbuildProject": "../Epicor.Models/Epicor.Models.csproj"
+    },
+    "Epicor.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Epicor.Utility/Epicor.Utility.csproj",
+      "msbuildProject": "../Epicor.Utility/Epicor.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Epicor.DataAccess >= 1.0.0",
+      "Epicor.Models >= 1.0.0",
+      "Epicor.Utility >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3"
@@ -3535,7 +3588,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kartik.saini\\source\\repos\\DatabaseEPICOR\\Epicor.DataAccess\\Epicor.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\kartik.saini\\source\\repos\\DatabaseEPICOR\\Epicor.DataAccess\\Epicor.DataAccess.csproj"
+            },
+            "C:\\Users\\kartik.saini\\source\\repos\\DatabaseEPICOR\\Epicor.Models\\Epicor.Models.csproj": {
+              "projectPath": "C:\\Users\\kartik.saini\\source\\repos\\DatabaseEPICOR\\Epicor.Models\\Epicor.Models.csproj"
+            },
+            "C:\\Users\\kartik.saini\\source\\repos\\DatabaseEPICOR\\Epicor.Utility\\Epicor.Utility.csproj": {
+              "projectPath": "C:\\Users\\kartik.saini\\source\\repos\\DatabaseEPICOR\\Epicor.Utility\\Epicor.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

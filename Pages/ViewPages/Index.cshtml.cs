@@ -1,7 +1,8 @@
 using DatabaseEPICORDb.Data;
-using Epicor2Database.Models;
+using Epicor.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;
 
 namespace DatabaseEPICORDb.Pages.ViewPages
@@ -13,6 +14,8 @@ namespace DatabaseEPICORDb.Pages.ViewPages
 
         public readonly EpicorDbContext _db;
         public List<Employee> Employees { get; set; }
+        //public int id;
+        //public Employee employee { get; set; }
         public List<Department> Departments { get; set; } = new List<Department>();
         public string SortOrder { get; set; }
         public string SearchString { get; set; }
@@ -35,6 +38,10 @@ namespace DatabaseEPICORDb.Pages.ViewPages
         }
         public void OnPost()
         {
+            //employee = _db.Employees.Find(id);
+            //ViewData["ManagerId"] = new SelectList(_db.Employees, "Id", "Name");
+            //ViewData["DepartmentID"] = new SelectList(_db.Departments, "Id", "Name");
+
             if (SearchString != null)
             {
                 switch (SortOrder)

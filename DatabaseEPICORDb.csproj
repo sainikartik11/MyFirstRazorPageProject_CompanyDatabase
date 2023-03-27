@@ -15,4 +15,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Epicor.DataAccess\Epicor.DataAccess.csproj" />
+    <ProjectReference Include="..\Epicor.Models\Epicor.Models.csproj" />
+    <ProjectReference Include="..\Epicor.Utility\Epicor.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

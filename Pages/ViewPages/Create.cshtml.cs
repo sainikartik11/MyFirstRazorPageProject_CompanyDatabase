@@ -1,9 +1,8 @@
 using DatabaseEPICORDb.Data;
-using Epicor2Database.Models;
+using Epicor.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 
 namespace DatabaseEPICORDb.Pages.ViewPages
 {

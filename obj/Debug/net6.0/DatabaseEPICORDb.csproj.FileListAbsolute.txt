@@ -85,3 +85,9 @@ C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\obj\Debug\net
 C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\obj\Debug\net6.0\DatabaseEPICORDb.pdb
 C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\obj\Debug\net6.0\DatabaseEPICORDb.genruntimeconfig.cache
 C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\obj\Debug\net6.0\ref\DatabaseEPICORDb.dll
+C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\bin\Debug\net6.0\Epicor.DataAccess.dll
+C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\bin\Debug\net6.0\Epicor.Models.dll
+C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\bin\Debug\net6.0\Epicor.Utility.dll
+C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\bin\Debug\net6.0\Epicor.DataAccess.pdb
+C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\bin\Debug\net6.0\Epicor.Models.pdb
+C:\Users\kartik.saini\source\repos\DatabaseEPICOR\DatabaseEPICORDb\bin\Debug\net6.0\Epicor.Utility.pdb
